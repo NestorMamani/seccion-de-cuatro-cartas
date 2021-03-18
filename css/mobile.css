@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --main-bg-color: pink;
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue-neutral: hsl(212, 86%, 64%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+}
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header__reliable {
+  font-size: 2rem;
+  font-weight: 200;
+  color: var(--grayish-blue);
+}
+
+.header__tech {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--very-dark-blue);
+}
+
+.header__description {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
+  font-size: 400;
+  color: var(--grayish-blue);
+}
+
+.cards {
+  margin: 0 auto 5rem;
+  display: grid;
+  gap: 2rem;
+  width: 80%;
+}
+
+.cards article {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 0.25rem;
+}
+
+.cards article img {
+  align-self: flex-end;
+  margin: 3rem 2rem 2rem 0rem;
+}
+
+.functions {
+  margin: 1.5rem 2rem 0rem;
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--very-dark-blue);
+}
+
+.description {
+  margin: 0.3rem 2rem;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--grayish-blue);
+}
+
+.supervisor {
+  border-top: 0.3rem solid var(--cyan);
+}
+
+.team-builder {
+  border-top: 0.3rem solid var(--red);
+}
+
+.karma {
+  border-top: 0.3rem solid var(--orange);
+}
+
+.calculator {
+  border-top: 0.3rem solid var(--blue-neutral);
+}
