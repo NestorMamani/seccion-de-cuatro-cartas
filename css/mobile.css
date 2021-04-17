@@ -54,9 +54,11 @@ html {
   display: grid;
   gap: 2rem;
   width: 80%;
+  justify-content: center;
 }
 
 .cards article {
+  max-width: 340px;
   display: flex;
   flex-direction: column;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
