@@ -1,0 +1,25 @@
+.cards {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 2rem;
+}
+
+.team-builder {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+.supervisor {
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+
+.calculator {
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+
+.karma {
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
